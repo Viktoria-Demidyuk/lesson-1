@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета участника</title>
+</head>
+<body>
+    <textarea cols ="50">ИМЯ</textarea>
+    <p><textarea cols ="50">ТЕЛЕФОН</textarea>
+    <p><textarea cols ="50">EMAIL</textarea>
+    <p><textarea cols ="50">ПАРОЛЬ</textarea>
+    <form>
+        <p><b>Выберите правильный вариант</b>
+            <p><input name="response" type="radio" value="yes" checked> Конституция Ирака принята в 2005</p>
+            <p><input name="secondresponse" type="radio" value="no"> Германия - унитарное государство</p>
+            <p><input name="thirdresponse" type="radio" value="no">Ливан полностью мусульманское государство</p>
+    </form>
+    <p><span><b>Год создания Государства Израиль</b></span></p>
+            <select multiple>
+                <option selected value="s1">1948</option>
+                <option selected value="s2">1949</option>
+                <option selected value="s3">1945</option>
+                <option selected value="s4">1953</option>
+            </select>
+    <p><span><b>Является ли Северная Корея автаркией?</b></span></p>
+            <select multiple>
+                <option selected value="s1">Да</option>
+                <option selected value="s2">Нет</option>
+                <option selected value="s2">Переход</option>
+                <option selected value="s2">Не знаю</option>
+            </select>
+    <form>
+        <p><b>Эссе:</b></p>
+            <p><textarea name="comment" cols ="100" rows ="30"></textarea></p>
+    </form>
+    <p><input type="submit" value="Подтвердить"></p>
+    <p><input type="reset" value="Сбросить"></p>
+</body>
+</html>
